@@ -4,7 +4,7 @@ import router from "./router";
 
 import axios from "axios";
 const axiosInstance = axios.create({
-  baseURL: "https://jsonplaceholder.typicode.com/"
+  baseURL: "https://jsonplaceholder.typicode.com"
 });
 
 axiosInstance.interceptors.request.use(config => {
